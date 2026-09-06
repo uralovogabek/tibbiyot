@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Tibbiyot",
+    "slug": "tibbiyot",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "backgroundColor": "#10367D",
+    "primaryColor": "#10367D",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "uz.tibbiyot.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#10367D",
+        "foregroundImage": "./assets/android-icon-foreground.png",
+        "backgroundImage": "./assets/android-icon-background.png",
+        "monochromeImage": "./assets/android-icon-monochrome.png"
+      },
+      "package": "uz.tibbiyot.app",
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "favicon": "./assets/favicon.png",
+      "bundler": "metro"
+    }
+  }
+}
